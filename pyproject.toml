@@ -1,0 +1,26 @@
+[project]
+name = "py4dggs"
+version = "0.1.0"
+description = "Canonical, readable, pure-Python multi-grid DGGS reference."
+requires-python = ">=3.12"
+dependencies = []                      # zero runtime deps
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Jorge S. Mendes de Jesus", email = "jorge@terraops.org" }]
+
+[project.urls]
+Repository = "https://github.com/terraops-org/py4dggs"
+
+[dependency-groups]
+dev = [
+  "pytest>=8",
+  "dggal==0.0.6",                      # the correctness oracle (pydggal, PyPI -- no sibling-repo dep)
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+xfail_strict = true
+
+[build-system]
+requires = ["uv_build>=0.7"]
+build-backend = "uv_build"

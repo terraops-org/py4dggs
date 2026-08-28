@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Least privilege: this workflow only reads code and uploads an artifact.
+permissions:
+  contents: read
+
+# A superseded push on the same ref is dead work -- cancel it.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: tests (py${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # pyproject requires-python = ">=3.12"; .python-version pins 3.13 locally.
+        python-version: ["3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Install
+        run: uv sync --locked
+
+      # This project's entire correctness story rests on pydggal being the live
+      # oracle. If the binding silently failed to install, every differential
+      # test would SKIP and the suite would pass green while verifying nothing.
+      # Fail loudly instead.
+      - name: Assert the pydggal oracle is live
+        run: uv run python -c "import dggal, ecrt; print('pydggal oracle available')"
+
+      # The golden conformance tables are vendored at tests/golden/ (see its
+      # PROVENANCE.md), so a plain checkout runs the FULL suite -- no secret, no
+      # sibling repo. tests/test_golden_tables_present.py fails loudly if they
+      # ever go missing, which matters because the conformance suites are
+      # parametrized from those files and would otherwise collect zero cases and
+      # go green. -ra additionally surfaces skip reasons in the log.
+      - name: Run test suite
+        run: uv run pytest tests/ -q -ra
+
+  build:
+    name: build (sdist + wheel)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Build distributions
+        run: uv build
+
+      # Import from the built wheel in a clean env -- catches packaging bugs
+      # (missing subpackage, bad build-backend config) that an editable install
+      # in the test job would never surface.
+      - name: Smoke-test the built wheel
+        run: |
+          uv run --isolated --no-project --with dist/*.whl \
+            python -c "import py4dggs; z = py4dggs.IGEO7.zone_from_geo(52.0, 5.0, 5); print(z.text_id, z.centroid)"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/*

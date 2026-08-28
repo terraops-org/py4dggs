@@ -1,0 +1,937 @@
+{
+  "provenance": {
+    "source": "pydggal",
+    "grid": "RTEA3H",
+    "dggal_version": "0.0.6",
+    "binding_commit": "v0.0.6",
+    "generator": "verify/generate.py",
+    "generated": "2026-07-03T15:18:39Z",
+    "status": "DGGAL-ecosystem reference \u2014 pending lab confirmation"
+  },
+  "cases": [
+    {
+      "name": "Lisbon",
+      "res": 0,
+      "value": "90071992547409920",
+      "textId": "AA-0-A"
+    },
+    {
+      "name": "Lisbon",
+      "res": 1,
+      "value": "18014398509481986",
+      "textId": "A2-0-C"
+    },
+    {
+      "name": "Lisbon",
+      "res": 2,
+      "value": "180143985094819848",
+      "textId": "B4-2-A"
+    },
+    {
+      "name": "Lisbon",
+      "res": 3,
+      "value": "180143985094819849",
+      "textId": "B4-2-B"
+    },
+    {
+      "name": "Lisbon",
+      "res": 4,
+      "value": "324259173170675736",
+      "textId": "C4-6-A"
+    },
+    {
+      "name": "Lisbon",
+      "res": 5,
+      "value": "306244774661193870",
+      "textId": "C2-23-C"
+    },
+    {
+      "name": "Lisbon",
+      "res": 6,
+      "value": "450359962737050784",
+      "textId": "D2-128-A"
+    },
+    {
+      "name": "Lisbon",
+      "res": 7,
+      "value": "450359962737050674",
+      "textId": "D2-10C-C"
+    },
+    {
+      "name": "Lisbon",
+      "res": 8,
+      "value": "594475150812915180",
+      "textId": "E2-97B-A"
+    },
+    {
+      "name": "Lisbon",
+      "res": 9,
+      "value": "594475150812914854",
+      "textId": "E2-929-C"
+    },
+    {
+      "name": "Lisbon",
+      "res": 10,
+      "value": "738590338888845868",
+      "textId": "F2-528B-A"
+    },
+    {
+      "name": "Tokyo",
+      "res": 0,
+      "value": "72057594037927936",
+      "textId": "A8-0-A"
+    },
+    {
+      "name": "Tokyo",
+      "res": 1,
+      "value": "72057594037927939",
+      "textId": "A8-0-D"
+    },
+    {
+      "name": "Tokyo",
+      "res": 2,
+      "value": "216172782113783836",
+      "textId": "B8-7-A"
+    },
+    {
+      "name": "Tokyo",
+      "res": 3,
+      "value": "216172782113783837",
+      "textId": "B8-7-B"
+    },
+    {
+      "name": "Tokyo",
+      "res": 4,
+      "value": "360287970189639868",
+      "textId": "C8-2F-A"
+    },
+    {
+      "name": "Tokyo",
+      "res": 5,
+      "value": "360287970189639870",
+      "textId": "C8-2F-C"
+    },
+    {
+      "name": "Tokyo",
+      "res": 6,
+      "value": "504403158265497312",
+      "textId": "D8-1B8-A"
+    },
+    {
+      "name": "Tokyo",
+      "res": 7,
+      "value": "504403158265497202",
+      "textId": "D8-19C-C"
+    },
+    {
+      "name": "Tokyo",
+      "res": 8,
+      "value": "648518346341366420",
+      "textId": "E8-EA5-A"
+    },
+    {
+      "name": "Tokyo",
+      "res": 9,
+      "value": "648518346341366418",
+      "textId": "E8-EA4-C"
+    },
+    {
+      "name": "Tokyo",
+      "res": 10,
+      "value": "792633534417342680",
+      "textId": "F8-8436-A"
+    },
+    {
+      "name": "NewYork",
+      "res": 0,
+      "value": "18014398509481984",
+      "textId": "A2-0-A"
+    },
+    {
+      "name": "NewYork",
+      "res": 1,
+      "value": "18014398509481985",
+      "textId": "A2-0-B"
+    },
+    {
+      "name": "NewYork",
+      "res": 2,
+      "value": "162129586585337856",
+      "textId": "B2-0-A"
+    },
+    {
+      "name": "NewYork",
+      "res": 3,
+      "value": "144115188075855906",
+      "textId": "B0-8-C"
+    },
+    {
+      "name": "NewYork",
+      "res": 4,
+      "value": "306244774661193732",
+      "textId": "C2-1-A"
+    },
+    {
+      "name": "NewYork",
+      "res": 5,
+      "value": "288230376151712030",
+      "textId": "C0-47-C"
+    },
+    {
+      "name": "NewYork",
+      "res": 6,
+      "value": "432345564227570096",
+      "textId": "D0-26C-A"
+    },
+    {
+      "name": "NewYork",
+      "res": 7,
+      "value": "432345564227570099",
+      "textId": "D0-26C-D"
+    },
+    {
+      "name": "NewYork",
+      "res": 8,
+      "value": "576460752303445508",
+      "textId": "E0-1581-A"
+    },
+    {
+      "name": "NewYork",
+      "res": 9,
+      "value": "576460752303445511",
+      "textId": "E0-1581-D"
+    },
+    {
+      "name": "NewYork",
+      "res": 10,
+      "value": "720575940379476640",
+      "textId": "F0-C0A8-A"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 0,
+      "value": "27021597764222976",
+      "textId": "A3-0-A"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 1,
+      "value": "27021597764222978",
+      "textId": "A3-0-C"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 2,
+      "value": "171136785840078852",
+      "textId": "B3-1-A"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 3,
+      "value": "171136785840078854",
+      "textId": "B3-1-C"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 4,
+      "value": "315251973915934776",
+      "textId": "C3-E-A"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 5,
+      "value": "315251973915934739",
+      "textId": "C3-4-D"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 6,
+      "value": "459367161991790860",
+      "textId": "D3-43-A"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 7,
+      "value": "459367161991790862",
+      "textId": "D3-43-C"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 8,
+      "value": "603482350067648568",
+      "textId": "E3-20E-A"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 9,
+      "value": "603482350067648570",
+      "textId": "E3-20E-C"
+    },
+    {
+      "name": "SaoPaulo",
+      "res": 10,
+      "value": "747597538143520316",
+      "textId": "F3-118F-A"
+    },
+    {
+      "name": "Sydney",
+      "res": 0,
+      "value": "81064793292668928",
+      "textId": "A9-0-A"
+    },
+    {
+      "name": "Sydney",
+      "res": 1,
+      "value": "63050394783186947",
+      "textId": "A7-0-D"
+    },
+    {
+      "name": "Sydney",
+      "res": 2,
+      "value": "207165582859042844",
+      "textId": "B7-7-A"
+    },
+    {
+      "name": "Sydney",
+      "res": 3,
+      "value": "207165582859042845",
+      "textId": "B7-7-B"
+    },
+    {
+      "name": "Sydney",
+      "res": 4,
+      "value": "351280770934898956",
+      "textId": "C7-43-A"
+    },
+    {
+      "name": "Sydney",
+      "res": 5,
+      "value": "351280770934898919",
+      "textId": "C7-39-D"
+    },
+    {
+      "name": "Sydney",
+      "res": 6,
+      "value": "495395959010756760",
+      "textId": "D7-226-A"
+    },
+    {
+      "name": "Sydney",
+      "res": 7,
+      "value": "495395959010756655",
+      "textId": "D7-20B-D"
+    },
+    {
+      "name": "Sydney",
+      "res": 8,
+      "value": "639511147086629996",
+      "textId": "E7-131B-A"
+    },
+    {
+      "name": "Sydney",
+      "res": 9,
+      "value": "639511147086629670",
+      "textId": "E7-12C9-C"
+    },
+    {
+      "name": "Sydney",
+      "res": 10,
+      "value": "783626335162640664",
+      "textId": "F7-AA46-A"
+    },
+    {
+      "name": "London",
+      "res": 0,
+      "value": "90071992547409920",
+      "textId": "AA-0-A"
+    },
+    {
+      "name": "London",
+      "res": 1,
+      "value": "90071992547409921",
+      "textId": "AA-0-B"
+    },
+    {
+      "name": "London",
+      "res": 2,
+      "value": "234187180623265792",
+      "textId": "BA-0-A"
+    },
+    {
+      "name": "London",
+      "res": 3,
+      "value": "162129586585337866",
+      "textId": "B2-2-C"
+    },
+    {
+      "name": "London",
+      "res": 4,
+      "value": "324259173170675744",
+      "textId": "C4-8-A"
+    },
+    {
+      "name": "London",
+      "res": 5,
+      "value": "306244774661193798",
+      "textId": "C2-11-C"
+    },
+    {
+      "name": "London",
+      "res": 6,
+      "value": "450359962737050028",
+      "textId": "D2-6B-A"
+    },
+    {
+      "name": "London",
+      "res": 7,
+      "value": "450359962737050031",
+      "textId": "D2-6B-D"
+    },
+    {
+      "name": "London",
+      "res": 8,
+      "value": "594475150812909352",
+      "textId": "E2-3CA-A"
+    },
+    {
+      "name": "London",
+      "res": 9,
+      "value": "594475150812909027",
+      "textId": "E2-378-D"
+    },
+    {
+      "name": "London",
+      "res": 10,
+      "value": "738590338888793388",
+      "textId": "F2-1F4B-A"
+    },
+    {
+      "name": "Nairobi",
+      "res": 0,
+      "value": "54043195528445952",
+      "textId": "A6-0-A"
+    },
+    {
+      "name": "Nairobi",
+      "res": 1,
+      "value": "54043195528445953",
+      "textId": "A6-0-B"
+    },
+    {
+      "name": "Nairobi",
+      "res": 2,
+      "value": "198158383604301824",
+      "textId": "B6-0-A"
+    },
+    {
+      "name": "Nairobi",
+      "res": 3,
+      "value": "198158383604301825",
+      "textId": "B6-0-B"
+    },
+    {
+      "name": "Nairobi",
+      "res": 4,
+      "value": "324259173170676032",
+      "textId": "C4-50-A"
+    },
+    {
+      "name": "Nairobi",
+      "res": 5,
+      "value": "324259173170676033",
+      "textId": "C4-50-B"
+    },
+    {
+      "name": "Nairobi",
+      "res": 6,
+      "value": "468374361246534380",
+      "textId": "D4-2BB-A"
+    },
+    {
+      "name": "Nairobi",
+      "res": 7,
+      "value": "468374361246534275",
+      "textId": "D4-2A0-D"
+    },
+    {
+      "name": "Nairobi",
+      "res": 8,
+      "value": "612489549322411720",
+      "textId": "E4-17B2-A"
+    },
+    {
+      "name": "Nairobi",
+      "res": 9,
+      "value": "612489549322411399",
+      "textId": "E4-1761-D"
+    },
+    {
+      "name": "Nairobi",
+      "res": 10,
+      "value": "756604737398459980",
+      "textId": "F4-D393-A"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 0,
+      "value": "90071992547409920",
+      "textId": "AA-0-A"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 1,
+      "value": "90071992547409921",
+      "textId": "AA-0-B"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 2,
+      "value": "162129586585337864",
+      "textId": "B2-2-A"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 3,
+      "value": "162129586585337865",
+      "textId": "B2-2-B"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 4,
+      "value": "288230376151711848",
+      "textId": "C0-1A-A"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 5,
+      "value": "288230376151711850",
+      "textId": "C0-1A-C"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 6,
+      "value": "432345564227568364",
+      "textId": "D0-BB-A"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 7,
+      "value": "432345564227568365",
+      "textId": "D0-BB-B"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 8,
+      "value": "576460752303429620",
+      "textId": "E0-5FD-A"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 9,
+      "value": "576460752303429622",
+      "textId": "E0-5FD-C"
+    },
+    {
+      "name": "Reykjavik",
+      "res": 10,
+      "value": "720575940379333724",
+      "textId": "F0-3517-A"
+    },
+    {
+      "name": "NorthPole",
+      "res": 0,
+      "value": "0",
+      "textId": "A0-0-A"
+    },
+    {
+      "name": "NorthPole",
+      "res": 1,
+      "value": "2",
+      "textId": "A0-0-C"
+    },
+    {
+      "name": "NorthPole",
+      "res": 2,
+      "value": "144115188075855876",
+      "textId": "B0-1-A"
+    },
+    {
+      "name": "NorthPole",
+      "res": 3,
+      "value": "144115188075855878",
+      "textId": "B0-1-C"
+    },
+    {
+      "name": "NorthPole",
+      "res": 4,
+      "value": "288230376151711760",
+      "textId": "C0-4-A"
+    },
+    {
+      "name": "NorthPole",
+      "res": 5,
+      "value": "288230376151711762",
+      "textId": "C0-4-C"
+    },
+    {
+      "name": "NorthPole",
+      "res": 6,
+      "value": "432345564227567668",
+      "textId": "D0-D-A"
+    },
+    {
+      "name": "NorthPole",
+      "res": 7,
+      "value": "432345564227567670",
+      "textId": "D0-D-C"
+    },
+    {
+      "name": "NorthPole",
+      "res": 8,
+      "value": "576460752303423648",
+      "textId": "E0-28-A"
+    },
+    {
+      "name": "NorthPole",
+      "res": 9,
+      "value": "576460752303423650",
+      "textId": "E0-28-C"
+    },
+    {
+      "name": "NorthPole",
+      "res": 10,
+      "value": "720575940379279844",
+      "textId": "F0-79-A"
+    },
+    {
+      "name": "SouthPole",
+      "res": 0,
+      "value": "45035996273704960",
+      "textId": "A5-0-A"
+    },
+    {
+      "name": "SouthPole",
+      "res": 1,
+      "value": "45035996273704963",
+      "textId": "A5-0-D"
+    },
+    {
+      "name": "SouthPole",
+      "res": 2,
+      "value": "189151184349560844",
+      "textId": "B5-3-A"
+    },
+    {
+      "name": "SouthPole",
+      "res": 3,
+      "value": "189151184349560847",
+      "textId": "B5-3-D"
+    },
+    {
+      "name": "SouthPole",
+      "res": 4,
+      "value": "333266372425416848",
+      "textId": "C5-24-A"
+    },
+    {
+      "name": "SouthPole",
+      "res": 5,
+      "value": "333266372425416851",
+      "textId": "C5-24-D"
+    },
+    {
+      "name": "SouthPole",
+      "res": 6,
+      "value": "477381560501273980",
+      "textId": "D5-15F-A"
+    },
+    {
+      "name": "SouthPole",
+      "res": 7,
+      "value": "477381560501273983",
+      "textId": "D5-15F-D"
+    },
+    {
+      "name": "SouthPole",
+      "res": 8,
+      "value": "621496748577141408",
+      "textId": "E5-CA8-A"
+    },
+    {
+      "name": "SouthPole",
+      "res": 9,
+      "value": "621496748577141411",
+      "textId": "E5-CA8-D"
+    },
+    {
+      "name": "SouthPole",
+      "res": 10,
+      "value": "765611936653101932",
+      "textId": "F5-72DB-A"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 0,
+      "value": "81064793292668928",
+      "textId": "A9-0-A"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 1,
+      "value": "81064793292668929",
+      "textId": "A9-0-B"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 2,
+      "value": "225179981368524816",
+      "textId": "B9-4-A"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 3,
+      "value": "225179981368524817",
+      "textId": "B9-4-B"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 4,
+      "value": "369295169444380792",
+      "textId": "C9-1E-A"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 5,
+      "value": "369295169444380793",
+      "textId": "C9-1E-B"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 6,
+      "value": "513410357520237552",
+      "textId": "D9-FC-A"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 7,
+      "value": "513410357520237553",
+      "textId": "D9-FC-B"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 8,
+      "value": "657525545596100944",
+      "textId": "E9-854-A"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 9,
+      "value": "657525545596100945",
+      "textId": "E9-854-B"
+    },
+    {
+      "name": "Antimeridian",
+      "res": 10,
+      "value": "801640733672024416",
+      "textId": "F9-4A58-A"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 0,
+      "value": "81064793292668928",
+      "textId": "A9-0-A"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 1,
+      "value": "81064793292668929",
+      "textId": "A9-0-B"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 2,
+      "value": "225179981368524816",
+      "textId": "B9-4-A"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 3,
+      "value": "225179981368524817",
+      "textId": "B9-4-B"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 4,
+      "value": "369295169444380792",
+      "textId": "C9-1E-A"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 5,
+      "value": "369295169444380793",
+      "textId": "C9-1E-B"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 6,
+      "value": "513410357520237552",
+      "textId": "D9-FC-A"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 7,
+      "value": "513410357520237553",
+      "textId": "D9-FC-B"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 8,
+      "value": "657525545596100944",
+      "textId": "E9-854-A"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 9,
+      "value": "657525545596100945",
+      "textId": "E9-854-B"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "res": 10,
+      "value": "801640733672024416",
+      "textId": "F9-4A58-A"
+    },
+    {
+      "name": "Equator0",
+      "res": 0,
+      "value": "36028797018963968",
+      "textId": "A4-0-A"
+    },
+    {
+      "name": "Equator0",
+      "res": 1,
+      "value": "36028797018963969",
+      "textId": "A4-0-B"
+    },
+    {
+      "name": "Equator0",
+      "res": 2,
+      "value": "180143985094819856",
+      "textId": "B4-4-A"
+    },
+    {
+      "name": "Equator0",
+      "res": 3,
+      "value": "180143985094819857",
+      "textId": "B4-4-B"
+    },
+    {
+      "name": "Equator0",
+      "res": 4,
+      "value": "324259173170675832",
+      "textId": "C4-1E-A"
+    },
+    {
+      "name": "Equator0",
+      "res": 5,
+      "value": "324259173170675833",
+      "textId": "C4-1E-B"
+    },
+    {
+      "name": "Equator0",
+      "res": 6,
+      "value": "468374361246532592",
+      "textId": "D4-FC-A"
+    },
+    {
+      "name": "Equator0",
+      "res": 7,
+      "value": "468374361246532593",
+      "textId": "D4-FC-B"
+    },
+    {
+      "name": "Equator0",
+      "res": 8,
+      "value": "612489549322395984",
+      "textId": "E4-854-A"
+    },
+    {
+      "name": "Equator0",
+      "res": 9,
+      "value": "612489549322395985",
+      "textId": "E4-854-B"
+    },
+    {
+      "name": "Equator0",
+      "res": 10,
+      "value": "756604737398319456",
+      "textId": "F4-4A58-A"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 0,
+      "value": "36028797018963968",
+      "textId": "A4-0-A"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 1,
+      "value": "36028797018963970",
+      "textId": "A4-0-C"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 2,
+      "value": "180143985094819856",
+      "textId": "B4-4-A"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 3,
+      "value": "180143985094819858",
+      "textId": "B4-4-C"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 4,
+      "value": "324259173170675872",
+      "textId": "C4-28-A"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 5,
+      "value": "324259173170675874",
+      "textId": "C4-28-C"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 6,
+      "value": "468374361246533040",
+      "textId": "D4-16C-A"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 7,
+      "value": "468374361246533042",
+      "textId": "D4-16C-C"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 8,
+      "value": "612489549322400576",
+      "textId": "E4-CD0-A"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 9,
+      "value": "612489549322400578",
+      "textId": "E4-CD0-C"
+    },
+    {
+      "name": "Vert0Lon",
+      "res": 10,
+      "value": "756604737398361424",
+      "textId": "F4-7354-A"
+    }
+  ]
+}

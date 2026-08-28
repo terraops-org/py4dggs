@@ -1,0 +1,1245 @@
+{
+  "provenance": {
+    "source": "pydggal",
+    "grid": "IVEA3H",
+    "dggal_version": "0.0.6",
+    "binding_commit": "v0.0.6",
+    "generator": "verify/generate.py",
+    "generated": "2026-07-03T00:54:05Z",
+    "status": "DGGAL-ecosystem reference \u2014 pending lab confirmation"
+  },
+  "cases": [
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 0,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 1,
+      "centroidLat": 35.3854531,
+      "centroidLon": -33.8
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 2,
+      "centroidLat": 40.0533067,
+      "centroidLon": -4.7380373
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 3,
+      "centroidLat": 40.0533067,
+      "centroidLon": -4.7380373
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 4,
+      "centroidLat": 40.0533067,
+      "centroidLon": -4.7380373
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 5,
+      "centroidLat": 37.6843108,
+      "centroidLon": -9.2899619
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 6,
+      "centroidLat": 37.6843108,
+      "centroidLon": -9.2899619
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 7,
+      "centroidLat": 39.0880304,
+      "centroidLon": -9.7013369
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 8,
+      "centroidLat": 38.4247435,
+      "centroidLon": -8.9332188
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 9,
+      "centroidLat": 38.8927235,
+      "centroidLon": -9.0680874
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 10,
+      "centroidLat": 38.6460772,
+      "centroidLon": -9.1877442
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 0,
+      "centroidLat": 31.832359,
+      "centroidLon": 101.2
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 1,
+      "centroidLat": 35.3854531,
+      "centroidLon": 146.2
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 2,
+      "centroidLat": 35.3854531,
+      "centroidLon": 146.2
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 3,
+      "centroidLat": 35.3854531,
+      "centroidLon": 146.2
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 4,
+      "centroidLat": 31.998133,
+      "centroidLon": 137.9068032
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 5,
+      "centroidLat": 35.8520131,
+      "centroidLon": 140.972503
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 6,
+      "centroidLat": 35.8520131,
+      "centroidLon": 140.972503
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 7,
+      "centroidLat": 35.9562633,
+      "centroidLon": 139.231578
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 8,
+      "centroidLat": 35.4648887,
+      "centroidLon": 140.0447667
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 9,
+      "centroidLat": 35.4974307,
+      "centroidLon": 139.4676757
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 10,
+      "centroidLat": 35.629122,
+      "centroidLon": 139.7747745
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 0,
+      "centroidLat": 31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 1,
+      "centroidLat": 31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 2,
+      "centroidLat": 31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 3,
+      "centroidLat": 44.1084616,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 4,
+      "centroidLat": 37.3728143,
+      "centroidLon": -73.6642323
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 5,
+      "centroidLat": 41.5718886,
+      "centroidLon": -73.3060668
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 6,
+      "centroidLat": 41.5718886,
+      "centroidLon": -73.3060668
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 7,
+      "centroidLat": 40.1802501,
+      "centroidLon": -73.42584
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 8,
+      "centroidLat": 40.9640162,
+      "centroidLon": -73.9573964
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 9,
+      "centroidLat": 40.5012804,
+      "centroidLon": -73.9922209
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 10,
+      "centroidLat": 40.760534,
+      "centroidLon": -74.1719434
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 0,
+      "centroidLat": -31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 1,
+      "centroidLat": -35.3854531,
+      "centroidLon": -33.8
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 2,
+      "centroidLat": -23.4631857,
+      "centroidLon": -57.0120372
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 3,
+      "centroidLat": -24.0326784,
+      "centroidLon": -43.0443949
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 4,
+      "centroidLat": -24.0326784,
+      "centroidLon": -43.0443949
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 5,
+      "centroidLat": -24.0192566,
+      "centroidLon": -47.720828
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 6,
+      "centroidLat": -24.0192566,
+      "centroidLon": -47.720828
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 7,
+      "centroidLat": -24.0440684,
+      "centroidLon": -46.1645452
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 8,
+      "centroidLat": -23.5903242,
+      "centroidLon": -46.9830318
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 9,
+      "centroidLat": -23.5978464,
+      "centroidLon": -46.4654815
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 10,
+      "centroidLat": -23.446538,
+      "centroidLon": -46.7378175
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 0,
+      "centroidLat": 0.0,
+      "centroidLon": 159.4825256
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 1,
+      "centroidLat": -35.3854531,
+      "centroidLon": 146.2
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 2,
+      "centroidLat": -35.3854531,
+      "centroidLon": 146.2
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 3,
+      "centroidLat": -35.3854531,
+      "centroidLon": 146.2
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 4,
+      "centroidLat": -30.6125794,
+      "centroidLon": 153.3926042
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 5,
+      "centroidLat": -34.6404706,
+      "centroidLon": 151.710556
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 6,
+      "centroidLat": -34.6404706,
+      "centroidLon": 151.710556
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 7,
+      "centroidLat": -33.5775426,
+      "centroidLon": 150.480053
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 8,
+      "centroidLat": -33.8400919,
+      "centroidLon": 151.4928268
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 9,
+      "centroidLat": -33.8400919,
+      "centroidLon": 151.4928268
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 10,
+      "centroidLat": -33.7537062,
+      "centroidLon": 151.1545075
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 0,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 1,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 2,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 3,
+      "centroidLat": 52.9430437,
+      "centroidLon": -8.3273077
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 4,
+      "centroidLat": 52.5733412,
+      "centroidLon": 4.485846
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 5,
+      "centroidLat": 50.6870793,
+      "centroidLon": -1.5529221
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 6,
+      "centroidLat": 50.6870793,
+      "centroidLon": -1.5529221
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 7,
+      "centroidLat": 51.3438311,
+      "centroidLon": 0.3953518
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 8,
+      "centroidLat": 51.3438311,
+      "centroidLon": 0.3953518
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 9,
+      "centroidLat": 51.6068566,
+      "centroidLon": -0.3567632
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 10,
+      "centroidLat": 51.3596781,
+      "centroidLon": -0.0743818
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 0,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 1,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 2,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 3,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 4,
+      "centroidLat": -0.0,
+      "centroidLon": 35.9545154
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 5,
+      "centroidLat": -0.0,
+      "centroidLon": 35.9545154
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 6,
+      "centroidLat": -2.432476,
+      "centroidLon": 37.2209209
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 7,
+      "centroidLat": -0.8152535,
+      "centroidLon": 37.1278086
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 8,
+      "centroidLat": -1.6274303,
+      "centroidLon": 36.7725943
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 9,
+      "centroidLat": -1.0863975,
+      "centroidLon": 36.7483873
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 10,
+      "centroidLat": -1.3571665,
+      "centroidLon": 36.8890316
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 0,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 1,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 2,
+      "centroidLat": 58.5867445,
+      "centroidLon": -29.4619264
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 3,
+      "centroidLat": 58.5867445,
+      "centroidLon": -29.4619264
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 4,
+      "centroidLat": 66.5048472,
+      "centroidLon": -25.815205
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 5,
+      "centroidLat": 61.8100404,
+      "centroidLon": -23.7823471
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 6,
+      "centroidLat": 64.4123909,
+      "centroidLon": -22.1191354
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 7,
+      "centroidLat": 64.4123909,
+      "centroidLon": -22.1191354
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 8,
+      "centroidLat": 64.4123909,
+      "centroidLon": -22.1191354
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 9,
+      "centroidLat": 63.8859467,
+      "centroidLon": -21.9467071
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 10,
+      "centroidLat": 64.1737432,
+      "centroidLon": -21.7383839
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 0,
+      "centroidLat": 58.3971459,
+      "centroidLon": -168.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 1,
+      "centroidLat": 69.1802101,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 2,
+      "centroidLat": 79.3225863,
+      "centroidLon": -168.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 3,
+      "centroidLat": 82.9989319,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 4,
+      "centroidLat": 86.4145226,
+      "centroidLon": -168.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 5,
+      "centroidLat": 87.6640067,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 6,
+      "centroidLat": 88.8014816,
+      "centroidLon": -168.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 7,
+      "centroidLat": 89.2212501,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 8,
+      "centroidLat": 89.6001038,
+      "centroidLon": -168.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 9,
+      "centroidLat": 89.7404135,
+      "centroidLon": -78.8
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 10,
+      "centroidLat": 89.8666573,
+      "centroidLon": -168.8
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 0,
+      "centroidLat": -58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 1,
+      "centroidLat": -69.1802101,
+      "centroidLon": 101.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 2,
+      "centroidLat": -79.3225863,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 3,
+      "centroidLat": -82.9989319,
+      "centroidLon": 101.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 4,
+      "centroidLat": -86.4145226,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 5,
+      "centroidLat": -87.6640067,
+      "centroidLon": 101.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 6,
+      "centroidLat": -88.8014816,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 7,
+      "centroidLat": -89.2212501,
+      "centroidLon": 101.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 8,
+      "centroidLat": -89.6001038,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 9,
+      "centroidLat": -89.7404135,
+      "centroidLon": 101.2
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 10,
+      "centroidLat": -89.8666573,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 0,
+      "centroidLat": 0.0,
+      "centroidLon": 159.4825256
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 1,
+      "centroidLat": 0.0,
+      "centroidLon": 159.4825256
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 2,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 3,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 4,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 5,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 6,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 7,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 8,
+      "centroidLat": 0.0,
+      "centroidLon": 179.6899328
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 9,
+      "centroidLat": -0.2678968,
+      "centroidLon": -179.9174805
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 10,
+      "centroidLat": 0.0,
+      "centroidLon": 179.9517749
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 0,
+      "centroidLat": 0.0,
+      "centroidLon": 159.4825256
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 1,
+      "centroidLat": 0.0,
+      "centroidLon": 159.4825256
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 2,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 3,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 4,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 5,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 6,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 7,
+      "centroidLat": 0.0,
+      "centroidLon": -179.5242152
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 8,
+      "centroidLat": 0.0,
+      "centroidLon": 179.6899328
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 9,
+      "centroidLat": -0.2678968,
+      "centroidLon": -179.9174805
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 10,
+      "centroidLat": 0.0,
+      "centroidLon": 179.9517749
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 0,
+      "centroidLat": -0.0,
+      "centroidLon": -20.5174744
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 1,
+      "centroidLat": -0.0,
+      "centroidLon": -20.5174744
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 2,
+      "centroidLat": -0.0,
+      "centroidLon": 0.4757848
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 3,
+      "centroidLat": -0.0,
+      "centroidLon": 0.4757848
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 4,
+      "centroidLat": -0.0,
+      "centroidLon": 0.4757848
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 5,
+      "centroidLat": -0.0,
+      "centroidLon": 0.4757848
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 6,
+      "centroidLat": -0.0,
+      "centroidLon": 0.4757848
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 7,
+      "centroidLat": -0.0,
+      "centroidLon": 0.4757848
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 8,
+      "centroidLat": -0.0,
+      "centroidLon": -0.3100672
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 9,
+      "centroidLat": 0.2678968,
+      "centroidLon": 0.0825195
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 10,
+      "centroidLat": -0.0,
+      "centroidLon": -0.0482251
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 0,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 1,
+      "centroidLat": 20.9908533,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 2,
+      "centroidLat": -0.0,
+      "centroidLon": 21.9242152
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 3,
+      "centroidLat": 7.0634239,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 4,
+      "centroidLat": -0.0,
+      "centroidLon": 14.8015231
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 5,
+      "centroidLat": 2.3569869,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 6,
+      "centroidLat": -0.0,
+      "centroidLon": 12.4038945
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 7,
+      "centroidLat": 0.7857555,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 8,
+      "centroidLat": -0.0,
+      "centroidLon": 11.6016905
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 9,
+      "centroidLat": 0.261922,
+      "centroidLon": 11.2
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 10,
+      "centroidLat": -0.0,
+      "centroidLon": 11.333941
+    }
+  ]
+}

@@ -1,0 +1,1090 @@
+{
+  "provenance": {
+    "source": "pydggal",
+    "dggal_version": "0.0.6",
+    "binding_commit": "v0.0.6",
+    "generator": "verify/generate.py",
+    "generated": "2026-06-16T14:51:42Z",
+    "status": "DGGAL-ecosystem reference \u2014 pending lab confirmation"
+  },
+  "cases": [
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 0,
+      "textId": "00"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 1,
+      "textId": "006"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 2,
+      "textId": "0064"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 3,
+      "textId": "00641"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 4,
+      "textId": "006415"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 5,
+      "textId": "0064156"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 6,
+      "textId": "00641565"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 7,
+      "textId": "006415654"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 8,
+      "textId": "0064156546"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 9,
+      "textId": "00641565463"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "res": 10,
+      "textId": "006415654630"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 0,
+      "textId": "05"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 1,
+      "textId": "054"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 2,
+      "textId": "0546"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 3,
+      "textId": "05460"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 4,
+      "textId": "054600"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 5,
+      "textId": "0546000"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 6,
+      "textId": "05460005"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 7,
+      "textId": "054600051"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 8,
+      "textId": "0546000512"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 9,
+      "textId": "05460005124"
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "res": 10,
+      "textId": "054600051245"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 0,
+      "textId": "02"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 1,
+      "textId": "020"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 2,
+      "textId": "0203"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 3,
+      "textId": "02031"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 4,
+      "textId": "020316"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 5,
+      "textId": "0203162"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 6,
+      "textId": "02031623"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 7,
+      "textId": "020316232"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 8,
+      "textId": "0203162321"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 9,
+      "textId": "02031623215"
+    },
+    {
+      "name": "NewYork",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "res": 10,
+      "textId": "020316232151"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 0,
+      "textId": "07"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 1,
+      "textId": "035"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 2,
+      "textId": "0355"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 3,
+      "textId": "03551"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 4,
+      "textId": "035513"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 5,
+      "textId": "0355131"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 6,
+      "textId": "03551315"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 7,
+      "textId": "035513156"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 8,
+      "textId": "0355131560"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 9,
+      "textId": "03551315606"
+    },
+    {
+      "name": "SaoPaulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "res": 10,
+      "textId": "035513156064"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 0,
+      "textId": "10"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 1,
+      "textId": "113"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 2,
+      "textId": "1015"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 3,
+      "textId": "10155"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 4,
+      "textId": "101550"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 5,
+      "textId": "1015505"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 6,
+      "textId": "10155051"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 7,
+      "textId": "101550516"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 8,
+      "textId": "1015505166"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 9,
+      "textId": "10155051660"
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "res": 10,
+      "textId": "101550516652"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 0,
+      "textId": "00"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 1,
+      "textId": "000"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 2,
+      "textId": "0006"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 3,
+      "textId": "00060"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 4,
+      "textId": "000604"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 5,
+      "textId": "0006045"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 6,
+      "textId": "00060450"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 7,
+      "textId": "000604501"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 8,
+      "textId": "0006045015"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 9,
+      "textId": "00060450150"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "res": 10,
+      "textId": "000604501504"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 0,
+      "textId": "04"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 1,
+      "textId": "040"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 2,
+      "textId": "0401"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 3,
+      "textId": "04014"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 4,
+      "textId": "040142"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 5,
+      "textId": "0401421"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 6,
+      "textId": "04014235"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 7,
+      "textId": "040142355"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 8,
+      "textId": "0401423554"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 9,
+      "textId": "04014235541"
+    },
+    {
+      "name": "Nairobi",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "res": 10,
+      "textId": "040142355415"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 0,
+      "textId": "00"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 1,
+      "textId": "005"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 2,
+      "textId": "0041"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 3,
+      "textId": "00411"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 4,
+      "textId": "004113"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 5,
+      "textId": "0041135"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 6,
+      "textId": "00411351"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 7,
+      "textId": "004113514"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 8,
+      "textId": "0041135141"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 9,
+      "textId": "00411351411"
+    },
+    {
+      "name": "Reykjavik",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "res": 10,
+      "textId": "004113514116"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 0,
+      "textId": "01"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 1,
+      "textId": "013"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 2,
+      "textId": "0132"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 3,
+      "textId": "01323"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 4,
+      "textId": "013232"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 5,
+      "textId": "0132323"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 6,
+      "textId": "01323232"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 7,
+      "textId": "013232323"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 8,
+      "textId": "0132323232"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 9,
+      "textId": "01323232323"
+    },
+    {
+      "name": "NorthPole",
+      "lat": 90.0,
+      "lon": 0.0,
+      "res": 10,
+      "textId": "013232323232"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 0,
+      "textId": "08"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 1,
+      "textId": "084"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 2,
+      "textId": "0845"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 3,
+      "textId": "08454"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 4,
+      "textId": "084545"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 5,
+      "textId": "0845454"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 6,
+      "textId": "08454545"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 7,
+      "textId": "084545454"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 8,
+      "textId": "0845454545"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 9,
+      "textId": "08454545454"
+    },
+    {
+      "name": "SouthPole",
+      "lat": -90.0,
+      "lon": 0.0,
+      "res": 10,
+      "textId": "084545454545"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 0,
+      "textId": "10"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 1,
+      "textId": "106"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 2,
+      "textId": "1065"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 3,
+      "textId": "10656"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 4,
+      "textId": "106565"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 5,
+      "textId": "1065650"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 6,
+      "textId": "10656500"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 7,
+      "textId": "106565006"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 8,
+      "textId": "1065650065"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 9,
+      "textId": "10656500650"
+    },
+    {
+      "name": "Antimeridian",
+      "lat": 0.0,
+      "lon": 180.0,
+      "res": 10,
+      "textId": "106565006501"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 0,
+      "textId": "10"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 1,
+      "textId": "106"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 2,
+      "textId": "1065"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 3,
+      "textId": "10656"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 4,
+      "textId": "106565"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 5,
+      "textId": "1065650"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 6,
+      "textId": "10656500"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 7,
+      "textId": "106565006"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 8,
+      "textId": "1065650065"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 9,
+      "textId": "10656500650"
+    },
+    {
+      "name": "AntimeridianNeg",
+      "lat": 0.0,
+      "lon": -179.999,
+      "res": 10,
+      "textId": "106565006501"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 0,
+      "textId": "03"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 1,
+      "textId": "036"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 2,
+      "textId": "0365"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 3,
+      "textId": "03656"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 4,
+      "textId": "036565"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 5,
+      "textId": "0365650"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 6,
+      "textId": "03656500"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 7,
+      "textId": "036565006"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 8,
+      "textId": "0365650065"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 9,
+      "textId": "03656500650"
+    },
+    {
+      "name": "Equator0",
+      "lat": 0.0,
+      "lon": 0.0,
+      "res": 10,
+      "textId": "036565006501"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 0,
+      "textId": "04"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 1,
+      "textId": "041"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 2,
+      "textId": "0413"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 3,
+      "textId": "03646"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 4,
+      "textId": "041313"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 5,
+      "textId": "0413131"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 6,
+      "textId": "04131313"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 7,
+      "textId": "036464646"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 8,
+      "textId": "0413131313"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 9,
+      "textId": "04131313131"
+    },
+    {
+      "name": "Vert0Lon",
+      "lat": 0.0,
+      "lon": 11.2,
+      "res": 10,
+      "textId": "041313131313"
+    }
+  ]
+}

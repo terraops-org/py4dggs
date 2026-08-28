@@ -1,0 +1,847 @@
+{
+  "provenance": {
+    "source": "pydggal",
+    "grid": "RTEA7H_Z7",
+    "dggal_version": "0.0.6",
+    "binding_commit": "v0.0.6",
+    "generator": "verify/generate.py",
+    "generated": "2026-07-03T00:39:15Z",
+    "status": "DGGAL-ecosystem reference \u2014 pending lab confirmation"
+  },
+  "cases": [
+    {
+      "textId": "00",
+      "res": 0,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "006",
+      "res": 1,
+      "centroidLat": 34.7831522,
+      "centroidLon": 4.9045707
+    },
+    {
+      "textId": "0064",
+      "res": 2,
+      "centroidLat": 34.285368,
+      "centroidLon": -7.7770962
+    },
+    {
+      "textId": "00641",
+      "res": 3,
+      "centroidLat": 37.8997614,
+      "centroidLon": -7.7650848
+    },
+    {
+      "textId": "006415",
+      "res": 4,
+      "centroidLat": 39.0751919,
+      "centroidLon": -8.9969152
+    },
+    {
+      "textId": "0064156",
+      "res": 5,
+      "centroidLat": 38.5640677,
+      "centroidLon": -8.9893412
+    },
+    {
+      "textId": "00641565",
+      "res": 6,
+      "centroidLat": 38.7287595,
+      "centroidLon": -9.1675464
+    },
+    {
+      "textId": "006415650",
+      "res": 7,
+      "centroidLat": 38.7287595,
+      "centroidLon": -9.1675464
+    },
+    {
+      "textId": "0064156503",
+      "res": 8,
+      "centroidLat": 38.7300289,
+      "centroidLon": -9.1298987
+    },
+    {
+      "textId": "00641565034",
+      "res": 9,
+      "centroidLat": 38.7261329,
+      "centroidLon": -9.1423895
+    },
+    {
+      "textId": "006415650342",
+      "res": 10,
+      "centroidLat": 38.722777,
+      "centroidLon": -9.1387459
+    },
+    {
+      "textId": "05",
+      "res": 0,
+      "centroidLat": 31.832359,
+      "centroidLon": 101.2
+    },
+    {
+      "textId": "054",
+      "res": 1,
+      "centroidLat": 30.8808183,
+      "centroidLon": 129.3146893
+    },
+    {
+      "textId": "0546",
+      "res": 2,
+      "centroidLat": 35.9354137,
+      "centroidLon": 139.6162538
+    },
+    {
+      "textId": "05460",
+      "res": 3,
+      "centroidLat": 35.9354137,
+      "centroidLon": 139.6162538
+    },
+    {
+      "textId": "054600",
+      "res": 4,
+      "centroidLat": 35.9354137,
+      "centroidLon": 139.6162538
+    },
+    {
+      "textId": "0546000",
+      "res": 5,
+      "centroidLat": 35.9354137,
+      "centroidLon": 139.6162538
+    },
+    {
+      "textId": "05460005",
+      "res": 6,
+      "centroidLat": 35.724509,
+      "centroidLon": 139.5805729
+    },
+    {
+      "textId": "054600054",
+      "res": 7,
+      "centroidLat": 35.704563,
+      "centroidLon": 139.6649594
+    },
+    {
+      "textId": "0546000545",
+      "res": 8,
+      "centroidLat": 35.6744383,
+      "centroidLon": 139.6598549
+    },
+    {
+      "textId": "05460005453",
+      "res": 9,
+      "centroidLat": 35.6772911,
+      "centroidLon": 139.6478063
+    },
+    {
+      "textId": "054600054534",
+      "res": 10,
+      "centroidLat": 35.6749058,
+      "centroidLon": 139.6515798
+    },
+    {
+      "textId": "02",
+      "res": 0,
+      "centroidLat": 31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "textId": "020",
+      "res": 1,
+      "centroidLat": 31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "textId": "0203",
+      "res": 2,
+      "centroidLat": 39.1061359,
+      "centroidLon": -71.8521168
+    },
+    {
+      "textId": "02031",
+      "res": 3,
+      "centroidLat": 41.7042517,
+      "centroidLon": -75.7582098
+    },
+    {
+      "textId": "020316",
+      "res": 4,
+      "centroidLat": 40.4927168,
+      "centroidLon": -74.7970609
+    },
+    {
+      "textId": "0203162",
+      "res": 5,
+      "centroidLat": 40.5878454,
+      "centroidLon": -74.071538
+    },
+    {
+      "textId": "02031623",
+      "res": 6,
+      "centroidLat": 40.7340376,
+      "centroidLon": -73.9189518
+    },
+    {
+      "textId": "020316235",
+      "res": 7,
+      "centroidLat": 40.7208742,
+      "centroidLon": -74.0230488
+    },
+    {
+      "textId": "0203162350",
+      "res": 8,
+      "centroidLat": 40.7208742,
+      "centroidLon": -74.0230488
+    },
+    {
+      "textId": "02031623506",
+      "res": 9,
+      "centroidLat": 40.7132581,
+      "centroidLon": -74.0116539
+    },
+    {
+      "textId": "020316235062",
+      "res": 10,
+      "centroidLat": 40.7127087,
+      "centroidLon": -74.0057787
+    },
+    {
+      "textId": "07",
+      "res": 0,
+      "centroidLat": -31.832359,
+      "centroidLon": -78.8
+    },
+    {
+      "textId": "035",
+      "res": 1,
+      "centroidLat": -20.5205347,
+      "centroidLon": -33.3601895
+    },
+    {
+      "textId": "0355",
+      "res": 2,
+      "centroidLat": -25.612243,
+      "centroidLon": -41.9009663
+    },
+    {
+      "textId": "03551",
+      "res": 3,
+      "centroidLat": -25.0427598,
+      "centroidLon": -45.8431908
+    },
+    {
+      "textId": "035513",
+      "res": 4,
+      "centroidLat": -23.573619,
+      "centroidLon": -45.9801706
+    },
+    {
+      "textId": "0355131",
+      "res": 5,
+      "centroidLat": -23.4761858,
+      "centroidLon": -46.5369972
+    },
+    {
+      "textId": "03551315",
+      "res": 6,
+      "centroidLat": -23.5824947,
+      "centroidLon": -46.7103938
+    },
+    {
+      "textId": "035513152",
+      "res": 7,
+      "centroidLat": -23.5221976,
+      "centroidLon": -46.6634333
+    },
+    {
+      "textId": "0355131526",
+      "res": 8,
+      "centroidLat": -23.5369987,
+      "centroidLon": -46.636045
+    },
+    {
+      "textId": "03551315264",
+      "res": 9,
+      "centroidLat": -23.547677,
+      "centroidLon": -46.631384
+    },
+    {
+      "textId": "035513152645",
+      "res": 10,
+      "centroidLat": -23.5498459,
+      "centroidLon": -46.6349234
+    },
+    {
+      "textId": "10",
+      "res": 0,
+      "centroidLat": 0.0,
+      "centroidLon": 159.4825256
+    },
+    {
+      "textId": "113",
+      "res": 1,
+      "centroidLat": -42.0149344,
+      "centroidLon": 163.2291606
+    },
+    {
+      "textId": "1015",
+      "res": 2,
+      "centroidLat": -30.3691704,
+      "centroidLon": 148.5563859
+    },
+    {
+      "textId": "10155",
+      "res": 3,
+      "centroidLat": -33.3953201,
+      "centroidLon": 150.9710581
+    },
+    {
+      "textId": "101550",
+      "res": 4,
+      "centroidLat": -33.3953201,
+      "centroidLon": 150.9710581
+    },
+    {
+      "textId": "1015505",
+      "res": 5,
+      "centroidLat": -33.8248316,
+      "centroidLon": 151.3309447
+    },
+    {
+      "textId": "10155051",
+      "res": 6,
+      "centroidLat": -33.9517296,
+      "centroidLon": 151.1426752
+    },
+    {
+      "textId": "101550516",
+      "res": 7,
+      "centroidLat": -33.88902,
+      "centroidLon": 151.1882635
+    },
+    {
+      "textId": "1015505166",
+      "res": 8,
+      "centroidLat": -33.8708992,
+      "centroidLon": 151.2151657
+    },
+    {
+      "textId": "10155051660",
+      "res": 9,
+      "centroidLat": -33.8708992,
+      "centroidLon": 151.2151657
+    },
+    {
+      "textId": "101550516603",
+      "res": 10,
+      "centroidLat": -33.8697045,
+      "centroidLon": 151.2101431
+    },
+    {
+      "textId": "000",
+      "res": 1,
+      "centroidLat": 58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "0006",
+      "res": 2,
+      "centroidLat": 50.6282205,
+      "centroidLon": 2.6981147
+    },
+    {
+      "textId": "00060",
+      "res": 3,
+      "centroidLat": 50.6282205,
+      "centroidLon": 2.6981147
+    },
+    {
+      "textId": "000652",
+      "res": 4,
+      "centroidLat": 52.1653438,
+      "centroidLon": -0.7639094
+    },
+    {
+      "textId": "0006045",
+      "res": 5,
+      "centroidLat": 51.2498087,
+      "centroidLon": -0.1541304
+    },
+    {
+      "textId": "00065226",
+      "res": 6,
+      "centroidLat": 51.6040521,
+      "centroidLon": -0.2024959
+    },
+    {
+      "textId": "000604515",
+      "res": 7,
+      "centroidLat": 51.4727566,
+      "centroidLon": -0.1166489
+    },
+    {
+      "textId": "0006045155",
+      "res": 8,
+      "centroidLat": 51.499673,
+      "centroidLon": -0.1429158
+    },
+    {
+      "textId": "00060451553",
+      "res": 9,
+      "centroidLat": 51.5021405,
+      "centroidLon": -0.1270872
+    },
+    {
+      "textId": "000652262666",
+      "res": 10,
+      "centroidLat": 51.509371,
+      "centroidLon": -0.1280666
+    },
+    {
+      "textId": "04",
+      "res": 0,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "textId": "040",
+      "res": 1,
+      "centroidLat": -0.0,
+      "centroidLon": 42.9174744
+    },
+    {
+      "textId": "0401",
+      "res": 2,
+      "centroidLat": -0.0,
+      "centroidLon": 33.7116903
+    },
+    {
+      "textId": "04014",
+      "res": 3,
+      "centroidLat": -2.6319787,
+      "centroidLon": 36.6895479
+    },
+    {
+      "textId": "040142",
+      "res": 4,
+      "centroidLat": -1.3154846,
+      "centroidLon": 37.1749684
+    },
+    {
+      "textId": "0401421",
+      "res": 5,
+      "centroidLat": -1.5046314,
+      "centroidLon": 36.7320042
+    },
+    {
+      "textId": "04014212",
+      "res": 6,
+      "centroidLat": -1.3164615,
+      "centroidLon": 36.8000073
+    },
+    {
+      "textId": "040142120",
+      "res": 7,
+      "centroidLat": -1.3164615,
+      "centroidLon": 36.8000073
+    },
+    {
+      "textId": "0401421202",
+      "res": 8,
+      "centroidLat": -1.2895815,
+      "centroidLon": 36.8096802
+    },
+    {
+      "textId": "04014212611",
+      "res": 9,
+      "centroidLat": -1.2933728,
+      "centroidLon": 36.8274228
+    },
+    {
+      "textId": "040142126111",
+      "res": 10,
+      "centroidLat": -1.2933826,
+      "centroidLon": 36.823598
+    },
+    {
+      "textId": "005",
+      "res": 1,
+      "centroidLat": 76.8767752,
+      "centroidLon": -33.38452
+    },
+    {
+      "textId": "0041",
+      "res": 2,
+      "centroidLat": 59.2844853,
+      "centroidLon": -24.3690243
+    },
+    {
+      "textId": "00411",
+      "res": 3,
+      "centroidLat": 63.3927807,
+      "centroidLon": -24.0229971
+    },
+    {
+      "textId": "004113",
+      "res": 4,
+      "centroidLat": 63.6403745,
+      "centroidLon": -21.1674335
+    },
+    {
+      "textId": "0041135",
+      "res": 5,
+      "centroidLat": 63.9497596,
+      "centroidLon": -22.0834504
+    },
+    {
+      "textId": "00411351",
+      "res": 6,
+      "centroidLat": 64.1536246,
+      "centroidLon": -21.9235957
+    },
+    {
+      "textId": "004113510",
+      "res": 7,
+      "centroidLat": 64.1536246,
+      "centroidLon": -21.9235957
+    },
+    {
+      "textId": "0041135100",
+      "res": 8,
+      "centroidLat": 64.1536246,
+      "centroidLon": -21.9235957
+    },
+    {
+      "textId": "00411351004",
+      "res": 9,
+      "centroidLat": 64.1480973,
+      "centroidLon": -21.9439681
+    },
+    {
+      "textId": "004113510040",
+      "res": 10,
+      "centroidLat": 64.1480973,
+      "centroidLon": -21.9439681
+    },
+    {
+      "textId": "01",
+      "res": 0,
+      "centroidLat": 58.3971459,
+      "centroidLon": -168.8
+    },
+    {
+      "textId": "013",
+      "res": 1,
+      "centroidLat": 76.8767752,
+      "centroidLon": 146.61548
+    },
+    {
+      "textId": "0132",
+      "res": 2,
+      "centroidLat": 85.545336,
+      "centroidLon": -168.8
+    },
+    {
+      "textId": "01323",
+      "res": 3,
+      "centroidLat": 88.1295854,
+      "centroidLon": 146.61548
+    },
+    {
+      "textId": "013232",
+      "res": 4,
+      "centroidLat": 89.3637891,
+      "centroidLon": -168.8
+    },
+    {
+      "textId": "0132323",
+      "res": 5,
+      "centroidLat": 89.7328105,
+      "centroidLon": 146.61548
+    },
+    {
+      "textId": "01323232",
+      "res": 6,
+      "centroidLat": 89.9091132,
+      "centroidLon": -168.8
+    },
+    {
+      "textId": "013232323",
+      "res": 7,
+      "centroidLat": 89.9618301,
+      "centroidLon": 146.61548
+    },
+    {
+      "textId": "0132323232",
+      "res": 8,
+      "centroidLat": 89.9870162,
+      "centroidLon": -168.8
+    },
+    {
+      "textId": "01323232323",
+      "res": 9,
+      "centroidLat": 89.9945472,
+      "centroidLon": 146.61548
+    },
+    {
+      "textId": "013232323232",
+      "res": 10,
+      "centroidLat": 89.9981452,
+      "centroidLon": -168.8
+    },
+    {
+      "textId": "08",
+      "res": 0,
+      "centroidLat": -58.3971459,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "084",
+      "res": 1,
+      "centroidLat": -76.8767752,
+      "centroidLon": 55.78452
+    },
+    {
+      "textId": "0845",
+      "res": 2,
+      "centroidLat": -85.545336,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "08454",
+      "res": 3,
+      "centroidLat": -88.1295854,
+      "centroidLon": 55.78452
+    },
+    {
+      "textId": "084545",
+      "res": 4,
+      "centroidLat": -89.3637891,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "0845454",
+      "res": 5,
+      "centroidLat": -89.7328105,
+      "centroidLon": 55.78452
+    },
+    {
+      "textId": "08454545",
+      "res": 6,
+      "centroidLat": -89.9091132,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "084545454",
+      "res": 7,
+      "centroidLat": -89.9618301,
+      "centroidLon": 55.78452
+    },
+    {
+      "textId": "0845454545",
+      "res": 8,
+      "centroidLat": -89.9870162,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "08454545454",
+      "res": 9,
+      "centroidLat": -89.9945472,
+      "centroidLon": 55.78452
+    },
+    {
+      "textId": "084545454545",
+      "res": 10,
+      "centroidLat": -89.9981452,
+      "centroidLon": 11.2
+    },
+    {
+      "textId": "106",
+      "res": 1,
+      "centroidLat": 9.2507547,
+      "centroidLon": -178.2690414
+    },
+    {
+      "textId": "1065",
+      "res": 2,
+      "centroidLat": 0.0,
+      "centroidLon": 177.748829
+    },
+    {
+      "textId": "10656",
+      "res": 3,
+      "centroidLat": 1.3430864,
+      "centroidLon": -179.2029894
+    },
+    {
+      "textId": "106565",
+      "res": 4,
+      "centroidLat": 0.0,
+      "centroidLon": -179.680395
+    },
+    {
+      "textId": "1065651",
+      "res": 5,
+      "centroidLat": -0.1919487,
+      "centroidLon": 179.832448
+    },
+    {
+      "textId": "10656512",
+      "res": 6,
+      "centroidLat": 0.0,
+      "centroidLon": 179.9527179
+    },
+    {
+      "textId": "106565126",
+      "res": 7,
+      "centroidLat": 0.0274263,
+      "centroidLon": -179.9859446
+    },
+    {
+      "textId": "1065651265",
+      "res": 8,
+      "centroidLat": 0.0,
+      "centroidLon": -179.9948627
+    },
+    {
+      "textId": "10656512650",
+      "res": 9,
+      "centroidLat": 0.0,
+      "centroidLon": -179.9948627
+    },
+    {
+      "textId": "106565126501",
+      "res": 10,
+      "centroidLat": 0.0,
+      "centroidLon": -179.9986069
+    },
+    {
+      "textId": "03",
+      "res": 0,
+      "centroidLat": -0.0,
+      "centroidLon": -20.5174744
+    },
+    {
+      "textId": "036",
+      "res": 1,
+      "centroidLat": 9.2507547,
+      "centroidLon": 1.7309586
+    },
+    {
+      "textId": "0365",
+      "res": 2,
+      "centroidLat": -0.0,
+      "centroidLon": -2.251171
+    },
+    {
+      "textId": "03656",
+      "res": 3,
+      "centroidLat": 1.3430864,
+      "centroidLon": 0.7970106
+    },
+    {
+      "textId": "036565",
+      "res": 4,
+      "centroidLat": -0.0,
+      "centroidLon": 0.319605
+    },
+    {
+      "textId": "0365651",
+      "res": 5,
+      "centroidLat": -0.1919487,
+      "centroidLon": -0.167552
+    },
+    {
+      "textId": "03656512",
+      "res": 6,
+      "centroidLat": -0.0,
+      "centroidLon": -0.0472821
+    },
+    {
+      "textId": "036565126",
+      "res": 7,
+      "centroidLat": 0.0274263,
+      "centroidLon": 0.0140554
+    },
+    {
+      "textId": "0365651265",
+      "res": 8,
+      "centroidLat": -0.0,
+      "centroidLon": 0.0051373
+    },
+    {
+      "textId": "03656512650",
+      "res": 9,
+      "centroidLat": -0.0,
+      "centroidLon": 0.0051373
+    },
+    {
+      "textId": "036565126501",
+      "res": 10,
+      "centroidLat": -0.0,
+      "centroidLon": 0.0013931
+    },
+    {
+      "textId": "041",
+      "res": 1,
+      "centroidLat": -9.2507547,
+      "centroidLon": 20.6690414
+    },
+    {
+      "textId": "0413",
+      "res": 2,
+      "centroidLat": -0.0,
+      "centroidLon": 15.674571
+    },
+    {
+      "textId": "03646",
+      "res": 3,
+      "centroidLat": 1.3246435,
+      "centroidLon": 9.861652
+    },
+    {
+      "textId": "041313",
+      "res": 4,
+      "centroidLat": -0.0,
+      "centroidLon": 11.8390653
+    },
+    {
+      "textId": "0413131",
+      "res": 5,
+      "centroidLat": -0.1892436,
+      "centroidLon": 11.3911511
+    },
+    {
+      "textId": "04131313",
+      "res": 6,
+      "centroidLat": -0.0,
+      "centroidLon": 11.2912946
+    },
+    {
+      "textId": "036464646",
+      "res": 7,
+      "centroidLat": 0.0270348,
+      "centroidLon": 11.1726928
+    },
+    {
+      "textId": "0413131313",
+      "res": 8,
+      "centroidLat": -0.0,
+      "centroidLon": 11.2130421
+    },
+    {
+      "textId": "04131313131",
+      "res": 9,
+      "centroidLat": -0.0038621,
+      "centroidLon": 11.203901
+    },
+    {
+      "textId": "041313131313",
+      "res": 10,
+      "centroidLat": -0.0,
+      "centroidLon": 11.2018632
+    }
+  ]
+}
