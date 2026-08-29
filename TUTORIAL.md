@@ -34,7 +34,10 @@ git clone https://github.com/terraops-org/py4dggs.git
 cd py4dggs && uv sync    # or: pip install -e .
 ```
 
-Both the PyPI distribution name and the import name are `py4dggs` (there's already an unrelated `dggs` name on PyPI, and the established DGGAL Python wrapper is `dggs4py` this project is the pure-Python inverse of that, no C library required, hence the name).
+Both the PyPI distribution name and the import name are `py4dggs`, read as "Python for
+DGGS". The other package you will see alongside it is [`dggal`](https://pypi.org/project/dggal/)
+(pydggal), DGGAL's official Python binding to the `libdggal` C library; `py4dggs` is the
+pure-Python counterpart to it, no C library required.
 
 ## Your first zone
 

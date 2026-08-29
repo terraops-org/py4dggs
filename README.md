@@ -1,29 +1,20 @@
-# to.py4dggs-py
+# py4dggs
 
 *Born 7th July 2026, Aveiro, Portugal @ 18:50 WET*
 
-Canonical, readable, pure-Python multi-grid DGGS reference library (package name `py4dggs`).
+Canonical, readable, pure-Python multi-grid DGGS reference library (package name `py4dggs`, therefore Python for DGGS).
 
 This library provides a clean-room Python implementation of Discrete Global Grid Systems (DGGS),
-designed for clarity, correctness, and zero runtime dependencies (no sibling-repo dependencies
-either - every grid, IGEO7 included, is verified against **pydggal**, the DGGAL engine's own
-Python binding, a normal PyPI dev dependency). IGEO7's Z7 quantization/centroid/hierarchy/text-id
-arithmetic was originally written to be bit-identical to a frozen Python port (`igeo7-py`, a
-separate single-grid sibling repo) - that historical provenance is still true of the code, but the
-sibling-repo *test dependency* itself was removed (2026-07-07); see `tests/test_isea7h_fuzz.py` for
-the live pydggal-based verification and `tests/test_z7.py` for the self-consistency checks on the
-pure bit-packing (which needs no external oracle - it's a definitional scheme, not a geometric one).
+designed for clarity, correctness, and zero runtime dependencies.
 
-**The interruption-vertex fix (2026-07-02):** `igeo7-py` (and the JS port it descends from)
-dropped the eC's i1/i2 interruption-frame reconciliation (`RI7H.ec:1991-2004`) in
-`addNonPolarBaseVertices`, so ~0.3% of cells - those whose boundary spans a rhombus
-interruption - got wrong / degenerate `(0,0)` "far-side" vertices, cascading into wrong k-ring
-neighbours. `py4dggs` ports the eC faithfully, so for those cells it matches DGGAL/pydggal (ground
-truth), NOT the buggy `igeo7-py`. See `tests/test_igeo7_vertices_pydggal.py`.
-
-See "Verification against pydggal" below for how every grid (IGEO7 included) is tested, and the
-"Golden tables are vendored" note there the conformance fixtures ship in this repo, so no
-sibling repo or credential is needed to run the full suite.
+Its reference point is **[DGGAL](https://dggal.org)**, the Discrete Global Grid Abstraction Library
+from Ecere ([source](https://github.com/ecere/dggal)): the canonical engine, written in the eC
+language, and the ground truth for every grid implemented here. Nothing is trusted in isolation, so
+every grid, IGEO7 included, is verified against **[pydggal](https://github.com/ecere/pydggal)**,
+DGGAL's official Python binding to the `libdggal` C library, installed from PyPI as the
+[`dggal`](https://pypi.org/project/dggal/) package. That is a dev dependency only, so the runtime
+stays dependency-free (and there are no sibling-repo dependencies either). See "Verification
+against pydggal" below for what is checked and how.
 
 ## Quickstart
 
