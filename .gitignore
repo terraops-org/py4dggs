@@ -5,8 +5,3 @@ __pycache__/
 dist/
 *.egg-info/
 .pytest_cache/
-.superpowers/
-.claude/
-claudemap-cache.json
-claudemap-maps.json
-**/CLAUDE.md

@@ -1,10 +1,10 @@
-# Tutorial — using `py4dggs` to work with real cells
+# Tutorial - using `py4dggs` to work with real cells
 
 This is a task-oriented walkthrough, distinct from the other two docs:
 
-- **`README.md`** — what's verified and the terse API reference.
-- **`ARCHITECTURE.md`** — how the code is structured, for studying/extending it.
-- **This file** — how to *do things* with it, with worked, runnable examples.
+- **`README.md`**  what's verified and the terse API reference.
+- **`ARCHITECTURE.md`**  how the code is structured, for studying/extending it.
+- **This file**  how to *do things* with it, with worked, runnable examples.
 
 Every snippet below was actually run against this exact library version, the
 printed output is real, not illustrative. Run any of them yourself with
@@ -18,9 +18,7 @@ printed output is real, not illustrative. Run any of them yourself with
 uv add py4dggs           # or: pip install py4dggs
 ```
 
-Both the PyPI distribution name and the import name are `py4dggs` (there's already an unrelated
-`dggs` name on PyPI, and the established DGGAL Python wrapper is `dggs4py` — this project is the
-pure-Python inverse of that, no C library required, hence the name).
+Both the PyPI distribution name and the import name are `py4dggs` (there's already an unrelated `dggs` name on PyPI, and the established DGGAL Python wrapper is `dggs4py` this project is the pure-Python inverse of that, no C library required, hence the name).
 
 **Not yet published to PyPI.** Until it is, install from a local clone instead:
 
@@ -29,7 +27,7 @@ git clone https://github.com/terraops-org/py4dggs.git
 cd py4dggs && uv sync    # or: pip install -e .
 ```
 
-Zero runtime dependencies — nothing else gets pulled in.
+Zero runtime dependencies - nothing else gets pulled in.
 
 ## Your first zone
 
@@ -50,14 +48,14 @@ print(tokyo.centroid)     # GeoPoint(lat=35.71138423764992, lon=139.707039697818
 print(len(tokyo.vertices))  # 6 (5 for a pentagon)
 ```
 
-`tokyo.centroid` is the cell's *own* center (not your input lat/lon) — a
+`tokyo.centroid` is the cell's *own* center (not your input lat/lon) - a
 `GeoPoint(lat, lon)` in WGS84 degrees. `tokyo.vertices` gives you the cell's
 boundary as a list of `GeoPoint`s (6 for a hexagon, 5 for one of the 12
 pentagons every DGGS grid has).
 
 ## Converting between representations
 
-A zone has three interchangeable forms — a `Zone` object, its canonical
+A zone has three interchangeable forms, a `Zone` object, its canonical
 **text id**, and its packed **integer value**. All three round-trip exactly:
 
 ```python
@@ -74,13 +72,13 @@ same2 = Zone(IGEO7, tokyo.value)
 print(same2 == tokyo)              # True
 ```
 
-`Zone` is a plain immutable `(grid, value)` pair — cheap to construct, safe to
+`Zone` is a plain immutable `(grid, value)` pair, cheap to construct, safe to
 put in a `set`/use as a `dict` key (it's hashable), and comparing two `Zone`s
 only makes sense if they came from the *same* grid.
 
 ## Choosing a grid
 
-`py4dggs` registers **six** grids — every combination of 3 projections ×
+`py4dggs` registers **six** grids, every combination of 3 projections ×
 2 topology/indexing families:
 
 | | **Z7** (aperture-7, digit-addressed) | **I3H** (aperture-3, rhombic-addressed) |
@@ -91,20 +89,20 @@ only makes sense if they came from the *same* grid.
 
 **Which one should you use?**
 
-- **Start with `IGEO7`** unless you have a specific reason not to — it's the
+- **Start with `IGEO7`** unless you have a specific reason not to  it's the
   most tested grid (the original one this library was built to reproduce
   bit-for-bit) and its aperture-7 hexagons are the shape most people picture
   when they think "hex grid".
-- **Pick a projection variant (IVEA/RTEA) only if you need it** — they exist
+- **Pick a projection variant (IVEA/RTEA) only if you need it**, they exist
   because DGGAL supports all three `VGCRadialVertex` orientations; if nothing
   in your project already commits you to IVEA or RTEA, `ISEA`-based grids
   (`IGEO7`/`ISEA3H`) are the default choice.
 - **Pick aperture-3 (`*3H`) if you need one of these things `*7H` doesn't
-  have**: sub-zones/tiling (see below — I3H-only), or you specifically want
+  have**: sub-zones/tiling (see below - I3H-only), or you specifically want
   the rhombic addressing scheme (text ids like `"D8-1B8-A"` rather than
   Z7's digit strings like `"05460005"`).
 - Every grid exposes the **exact same `Zone`/`Grid` API** shown throughout
-  this tutorial — switching grids never changes your code shape, only which
+  this tutorial - switching grids never changes your code shape, only which
   grid object you called it on:
 
 ```python
@@ -128,13 +126,13 @@ IVEA3H @ res 5: C8-2F-C  centroid=GeoPoint(lat=35.85201309402165, lon=140.972503
 RTEA3H @ res 5: C8-2F-C  centroid=GeoPoint(lat=35.844051255213806, lon=141.09014750256864)  pentagon=False  neighbors=6  children=7
 ```
 
-`get_grid("IGEO7")` is the same object as `IGEO7` — use `get_grid(name)` when
+`get_grid("IGEO7")` is the same object as `IGEO7`, use `get_grid(name)` when
 the grid is chosen at runtime (e.g. from a config value or CLI flag), and the
 plain import (`from py4dggs import IGEO7`) when it's a compile-time choice.
 
 ## Neighbours (the k-ring)
 
-Every zone knows its immediate neighbours — 6 for an ordinary hexagon, 5 for
+Every zone knows its immediate neighbours, 6 for an ordinary hexagon, 5 for
 one of the 12 pentagons:
 
 ```python
@@ -179,12 +177,12 @@ print(z.text_id, z.resolution)
 05460 3
 ```
 
-**Congruent vs. non-congruent hierarchy — a real gotcha to know about.** The
+**Congruent vs. non-congruent hierarchy a real gotcha to know about.** The
 two topology families answer "how many parents does a cell have?" differently:
 
 - **Z7 grids** (`IGEO7`/`IVEA7H`/`RTEA7H`) are *congruent*: every cell has
   **exactly one** parent (`.parent` is never ambiguous) and 7 children (6 for
-  a pentagon) — a parent/child relationship is just appending/dropping one
+  a pentagon) - a parent/child relationship is just appending/dropping one
   digit from the text id.
 - **I3H grids** (`ISEA3H`/`IVEA3H`/`RTEA3H`) are *not* congruent: a cell can
   have **1 or 3** parents. `.parent` always gives you the *primary* one
@@ -212,19 +210,19 @@ A5-0-B
 
 If you're writing grid-agnostic code (working with whichever of the 6 grids
 the caller passed in), use `.parents`/`.is_centroid_child` rather than
-assuming `.parent` is the *only* parent — it's always safe to call, but on an
+assuming `.parent` is the *only* parent - it's always safe to call, but on an
 I3H grid it's only ever showing you one of up to three true parents.
 
-## Sub-zones — generating many cells at once (I3H grids only)
+## Sub-zones - generating many cells at once (I3H grids only)
 
 This is the closest thing in this library to "generate a grid": instead of
 computing one zone at a time, **sub-zones** give you *every* descendant of a
-zone `relative_depth` levels down, as one ordered, indexable batch — the OGC
+zone `relative_depth` levels down, as one ordered, indexable batch - the OGC
 "descendants-at-depth" operation. It is currently implemented on the I3H grids
 (`ISEA3H`/`IVEA3H`/`RTEA3H`); on the Z7 grids (`IGEO7`/`IVEA7H`/`RTEA7H`) these
 five methods raise `NotImplementedError` for now.
 
-Z7 sub-zones are **planned, not a non-goal** — a roadmap item, not a scope
+Z7 sub-zones are **planned, not a non-goal**, a roadmap item, not a scope
 boundary. `Grid` already dispatches sub-zones through its optional-capability
 `getattr` pattern, so adding them means writing the three methods on `hex_a7`
 following the `hex_a3` precedent; no architectural change is needed.
@@ -254,18 +252,109 @@ True
 True
 ```
 
-**Why this is the "DGGS-as-storage" pattern:** pick a coarse zone as a fixed
-"tile" and a `relative_depth`, and `count_sub_zones` tells you the tile's
-exact array length *before* you generate anything — exactly the contract a
-raster/array storage format needs (Cloud-Optimized GeoTIFF, Zarr, ...), except
-the "pixels" are equal-area DGGS cells instead of a row/column grid. A coarse
-zone id plus a slot index stands in for a fine cell id without ever computing
-or storing that fine id directly.
-
 `sub_zone_index`/`sub_zone_at_index` currently build the full `sub_zones()`
-list internally (`O(count_sub_zones)`, not `O(1)`) — fine for the tile sizes
+list internally (`O(count_sub_zones)`, not `O(1)`) - fine for the tile sizes
 this pattern is meant for, but worth knowing if you're reaching for a single
 slot out of a very deep tile in a hot loop.
+
+## Exporting cells as GeoJSON
+
+`zone.vertices` gives you a cell's boundary exactly as DGGAL reports it. That is
+the library's correctness contract, so it stays raw: longitudes in [-180, 180],
+in the engine's own order, with no repeated closing point. The `py4dggs.geojson`
+module sits on top of that and emits RFC 7946 geometry you can hand straight to
+a map. It is exported from the top-level package, so `from py4dggs import
+geojson` finds it; the examples below import the three functions directly:
+
+```python
+from py4dggs import IGEO7
+from py4dggs.geojson import zone_geometry
+
+lisbon = IGEO7.zone_from_geo(lat=38.7223, lon=-9.1393, res=8)
+geom = zone_geometry(lisbon)
+ring = geom["coordinates"][0]
+
+print(geom["type"], len(ring))
+print(ring[0] == ring[-1])
+```
+```
+Polygon 7
+True
+```
+
+A hexagon has 6 vertices but the ring has 7, because RFC 7946 wants the first
+point repeated at the end. Every emitted ring is also wound counterclockwise, so
+consumers that care about orientation (PostGIS, Shapely) get what they expect.
+
+`zone_feature` wraps a single cell and `feature_collection` wraps any iterable of
+them, which is usually what you want. By default each feature carries its zone's
+text id; pass `properties` to replace that, either as one dict applied to every
+feature or as a callable taking a zone:
+
+```python
+from py4dggs.geojson import zone_feature, feature_collection
+
+print(zone_feature(lisbon)["properties"])
+
+patch = feature_collection([lisbon, *lisbon.neighbors])
+print(patch["type"], len(patch["features"]))
+
+labelled = feature_collection(
+    [lisbon, *lisbon.neighbors],
+    lambda z: {"id": z.text_id, "res": z.resolution},
+)
+print(labelled["features"][0]["properties"])
+```
+```
+{'zone': '0064156546'}
+FeatureCollection 7
+{'id': '0064156546', 'res': 8}
+```
+
+The result is plain dicts, so writing it out is just
+`json.dump(patch, open("patch.geojson", "w"))` and the file drops straight into
+QGIS or geojson.io. Any iterable works as the input, so
+`feature_collection(tile.sub_zones(2))` exports a whole tile from the sub-zones
+section above.
+
+## GeoJSON's two hard cases: the antimeridian and the poles
+
+Two kinds of cell need more than copying coordinates across, and they are the
+reason to call this module instead of writing the loop yourself.
+
+A cell sitting on +/-180 has vertices on both sides of it. Each longitude is
+individually in range, so nothing looks wrong until a planar reader joins them
+up and draws a sliver the long way round the globe:
+
+```python
+straddler = IGEO7.zone_from_geo(lat=-20.0, lon=179.99, res=5)
+lons = [v.lon for v in straddler.vertices]
+print(round(max(lons) - min(lons), 2))
+
+geom = zone_geometry(straddler)
+print(geom["type"], len(geom["coordinates"]))
+```
+```
+359.89
+MultiPolygon 2
+```
+
+That cell is barely a degree across, but its raw longitude span is 359.89
+degrees. `zone_geometry` cuts it at the antimeridian and returns the two halves
+as a `MultiPolygon`, per RFC 7946 section 3.1.9.
+
+The other case is a cell containing a pole. It winds a full 360 degrees in
+longitude yet carries no vertex at latitude +/-90, so it cannot be closed as a
+planar ring at all. `zone_geometry` re-anchors that boundary to run from -180 to
++180 and seals it across the pole itself, giving back a `Polygon` with the two
+pole corners added. There is no example here because picking the cell that
+encloses a pole is fiddly (quantizing the exact pole is a boundary tie-break, so
+the cell you get back is not always the one that contains it); see
+`pole_cell()` in `tests/test_geojson.py` for a reliable way to find it.
+
+Finally, a zone with no geometry (DGGAL's nullZone) raises `InvalidZoneError`
+instead of returning a degenerate shape, which brings us to how the rest of the
+library reports bad input.
 
 ## Handling bad input
 
@@ -306,10 +395,10 @@ here stops working, the test suite says so.
 
 ## Where to go next
 
-- **`README.md`** — the "Verification against pydggal" section explains
+- **`README.md`** the "Verification against pydggal" section explains
   exactly what's proven correct (and how) for each of the 6 grids, and the
   "Grids"/"Sub-zones" sections are the terse reference version of what this
   tutorial walked through with examples.
-- **`ARCHITECTURE.md`** — start here once you want to *read* the source: how
+- **`ARCHITECTURE.md`** start here once you want to *read* the source: how
   a `Grid` is composed from a `Projection`+`Topology`+`Indexing`, and how to
   find the eC/DGGAL source line a given Python function ports.

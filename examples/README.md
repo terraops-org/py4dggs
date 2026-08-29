@@ -15,6 +15,7 @@ python examples/01_first_zone.py
 | `04_hierarchy.py` | Z7's congruent digit hierarchy vs I3H's geometric one |
 | `05_tile_store.py` | sub-zones as a fixed-size tile store, and the materialisation bound |
 | `06_error_handling.py` | what raises, what returns empty, and what to catch |
+| `07_geojson.py` | RFC 7946 export: one cell, a FeatureCollection, and the antimeridian split |
 
 These are executed by the test suite (`tests/test_docs_examples.py`), together
 with every ```python block in `README.md` and `TUTORIAL.md` — so an API change
