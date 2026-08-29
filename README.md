@@ -27,7 +27,43 @@ sibling repo or credential is needed to run the full suite.
 
 ## Quickstart
 
-Runnable scripts live in **`examples/`** (`python examples/01_first_zone.py`); see
+Python 3.12 or newer, and zero runtime dependencies, so nothing else gets
+pulled in:
+
+```bash
+uv add py4dggs           # or: pip install py4dggs
+```
+
+To work on the library itself, or to run its test suite, install from a clone
+instead:
+
+```bash
+git clone https://github.com/terraops-org/py4dggs.git
+cd py4dggs
+uv sync                  # creates .venv/ and installs the dev extras
+```
+
+`uv sync` also brings in the dev dependencies: `pytest`, and `dggal` (pydggal,
+the DGGAL engine's own Python binding), which the suite uses as its correctness
+oracle. If you would rather not use `uv`:
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e .         # add: pip install pytest dggal==0.0.6   to run the tests
+```
+
+Confirm the install, and that this machine reproduces the verified behaviour:
+
+```bash
+uv run python -c "import py4dggs; print(py4dggs.__all__)"
+uv run pytest -q                          # the full suite, ~4300 tests in ~11s
+uv run python examples/01_first_zone.py   # a first runnable example
+```
+
+From there, `uv run python` drops you into a REPL with the package importable,
+or activate `.venv` and use plain `python`.
+
+Runnable scripts live in **`examples/`** (`uv run python examples/01_first_zone.py`); see
 `examples/README.md` for the list. They and every code block in this file are executed by the test
 suite, so they cannot silently go stale.
 

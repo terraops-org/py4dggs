@@ -7,10 +7,14 @@ This is a task-oriented walkthrough, distinct from the other two docs:
 - **This file**  how to *do things* with it, with worked, runnable examples.
 
 Every snippet below was actually run against this exact library version, the
-printed output is real, not illustrative. Run any of them yourself with
+printed output is real, not illustrative. Run them yourself with `uv run python`
+from the repo root, pasting the blocks in order: this is a walkthrough, so some
+blocks reuse names that earlier ones defined.
 
-`uv run python -c "..."` from the repo root (or a fresh `python` after
-`pip install py4dggs`/`uv add py4dggs`).
+`uv run` is what puts the package on the import path. A bare `python` will not
+find it, because `uv sync` installs into `.venv/` rather than your system
+interpreter; for a plain REPL, activate that environment first with
+`source .venv/bin/activate`.
 
 ## Install
 
@@ -18,16 +22,19 @@ printed output is real, not illustrative. Run any of them yourself with
 uv add py4dggs           # or: pip install py4dggs
 ```
 
-Both the PyPI distribution name and the import name are `py4dggs` (there's already an unrelated `dggs` name on PyPI, and the established DGGAL Python wrapper is `dggs4py` this project is the pure-Python inverse of that, no C library required, hence the name).
+Zero runtime dependencies - nothing else gets pulled in.
 
-**Not yet published to PyPI.** Until it is, install from a local clone instead:
+That is the way in for *using* the library. It does not work from inside a clone
+of this repo, though: `uv add py4dggs` there fails with a self-dependency error,
+because the project you are standing in is itself named `py4dggs`. To follow this
+tutorial against a clone, or to run the test suite, install it as a project:
 
 ```bash
 git clone https://github.com/terraops-org/py4dggs.git
 cd py4dggs && uv sync    # or: pip install -e .
 ```
 
-Zero runtime dependencies - nothing else gets pulled in.
+Both the PyPI distribution name and the import name are `py4dggs` (there's already an unrelated `dggs` name on PyPI, and the established DGGAL Python wrapper is `dggs4py` this project is the pure-Python inverse of that, no C library required, hence the name).
 
 ## Your first zone
 
@@ -327,6 +334,9 @@ individually in range, so nothing looks wrong until a planar reader joins them
 up and draws a sliver the long way round the globe:
 
 ```python
+from py4dggs import IGEO7
+from py4dggs.geojson import zone_geometry
+
 straddler = IGEO7.zone_from_geo(lat=-20.0, lon=179.99, res=5)
 lons = [v.lon for v in straddler.vertices]
 print(round(max(lons) - min(lons), 2))
@@ -385,8 +395,8 @@ Every example above also ships as a standalone script under `examples/`, so you
 can run them instead of copying them:
 
 ```bash
-python examples/01_first_zone.py     # this tutorial's first sections
-python examples/05_tile_store.py     # the sub-zones/tile-store walkthrough
+uv run python examples/01_first_zone.py   # this tutorial's first sections
+uv run python examples/05_tile_store.py   # the sub-zones/tile-store walkthrough
 ```
 
 See `examples/README.md` for the full list. Both those scripts and every code

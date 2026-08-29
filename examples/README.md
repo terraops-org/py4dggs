@@ -4,7 +4,7 @@ Standalone scripts, ordered roughly by difficulty. Each one runs on its own with
 no arguments and prints what it computed:
 
 ```bash
-python examples/01_first_zone.py
+uv run python examples/01_first_zone.py
 ```
 
 | Script | Shows |
